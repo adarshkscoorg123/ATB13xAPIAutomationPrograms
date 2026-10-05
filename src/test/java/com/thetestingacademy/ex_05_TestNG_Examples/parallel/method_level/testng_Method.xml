@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Parallel-Methods" parallel="methods" thread-count="2">
+
+<test verbose="2"
+      preserve-order="true"
+      name="C:/Users/adars/IdeaProjects/ATB13xAPIAutomationPrograms">
+
+    <classes>
+
+        <class name="com.thetestingacademy.ex_05_TestNG_Examples.parallel.method_level.LoginTest">
+        </class>
+
+    </classes>
+
+</test>
+
+</suite>
